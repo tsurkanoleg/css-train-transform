@@ -97,7 +97,7 @@
 
 .task11 {
 	transform: translateX(1);
-	transition: transform 1s ease-in;
+	transition: transform 1s ease-out;
 }
 
 .task11:hover {
@@ -106,7 +106,7 @@
 
 .task12 {
 	transform: translateY(1);
-	transition: transform 1s ease-in;
+	transition: transform 1s linear;
 }
 
 .task12:hover {
@@ -124,7 +124,7 @@
 
 .task14 {
 	transform: translate3d(1px, 1px, 1);
-  	transition: transform 1s ease-out;
+  	transition: transform 1s ease-in;
 }
 
 .task14:hover {
@@ -163,5 +163,5 @@
 		0,
 		15,
 		1
-	  );
+	);
 }
